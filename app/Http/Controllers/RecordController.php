@@ -24,12 +24,14 @@ class RecordController extends Controller
     
     //記録入力画面を表示
     public function add(){
-        //ログインしているデータを取得
+        //アカウントデータを取得
         $user = \Auth::user();
+        //アカウントと紐づく記録一覧取得
+        $records = Record::where('user_id',$user['id'])->get();
         
 
         
-        return view('add', compact('user')); 
+        return view('add', compact('user','records')); 
         
 
     }
