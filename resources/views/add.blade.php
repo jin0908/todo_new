@@ -1,87 +1,112 @@
 @extends('layouts.app')
 
 @section('content')
+
 <div class="container">
-    <h1 style="text-align: center">11月</h1>
-    <form action="{{ route('record_add') }}" method="post" >
-        @csrf
-        <table class="table table-bordered">
-            <thead>
-                <tr>
-                    <th></th> <th>体重</th> <th>カロリー</th> <th>タンパク質</th> <th>脂質</th> <th>炭水化物</th>
-                </tr>
-            </thead>    
-                <tr>
-                    <td>1日<input type="hidden" value="2022-11-01" name="record[1][date]"></td>
-                    
-                    <td><input type="number" value="50" step="0.1"  min="10" max="120" class="form-control"  name="record[1][weight]"></td>
-                    <td><input type="number" value="0" step="1"  min="0" max="4000" class="form-control"  name="record[1][kcal]"></td>
-                    <td><input type="number" value="0" step="1"  min="0" max="500" class="form-control"  name="record[1][protein]"></td>
-                    <td><input type="number" value="0" step="1"  min="0" max="500" class="form-control"  name="record[1][fat]" ></td>
-                    <td><input type="number" value="0" step="1"  min="0" max="1000" class="form-control"  name="record[1][carb]"></td>
-                </tr>
-    
-                <tr>
-                    <td>2日<input type="hidden" value="2022-11-02" name="record[2][date]"></td>
-                    
-                    <td><input type="number" value="50" step="0.1"  min="10" max="120" class="form-control"  name="record[2][weight]"></td>
-                    <td><input type="number" value="0" step="1"  min="0" max="4000" class="form-control"  name="record[2][kcal]"></td>
-                    <td><input type="number" value="0" step="1"  min="0" max="500" class="form-control"  name="record[2][protein]"></td>
-                    <td><input type="number" value="0" step="1"  min="0" max="500" class="form-control"  name="record[2][fat]" ></td>
-                    <td><input type="number" value="0" step="1"  min="0" max="1000" class="form-control"  name="record[2][carb]"></td>
-                </tr>
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header"><h4 style="text-align: center">12月</h4></div>
 
-                <tr>
-                    <td>3日<input type="hidden" value="2022-11-03" name="record[3][date]"></td>
-                    
-                    <td><input type="number" value="50" step="0.1"  min="10" max="120" class="form-control"  name="record[3][weight]"></td>
-                    <td><input type="number" value="0" step="1"  min="0" max="4000" class="form-control"  name="record[3][kcal]"></td>
-                    <td><input type="number" value="0" step="1"  min="0" max="500" class="form-control"  name="record[3][protein]"></td>
-                    <td><input type="number" value="0" step="1"  min="0" max="500" class="form-control"  name="record[3][fat]" ></td>
-                    <td><input type="number" value="0" step="1"  min="0" max="1000" class="form-control"  name="record[3][carb]"></td>
-                </tr>
-    
-                <tr>
-                    <td>4日<input type="hidden" value="2022-11-04" name="record[4][date]"></td>
-                    
-                    <td><input type="number" value="50" step="0.1"  min="10" max="120" class="form-control"  name="record[4][weight]"></td>
-                    <td><input type="number" value="0" step="1"  min="0" max="4000" class="form-control"  name="record[4][kcal]"></td>
-                    <td><input type="number" value="0" step="1"  min="0" max="500" class="form-control"  name="record[4][protein]"></td>
-                    <td><input type="number" value="0" step="1"  min="0" max="500" class="form-control"  name="record[4][fat]" ></td>
-                    <td><input type="number" value="0" step="1"  min="0" max="1000" class="form-control"  name="record[4][carb]"></td>
-                </tr>
-        </table>
-        <input type="submit" value="入力">
+                <div class="card-body">
+                    <form method="POST" action="{{ route('record_add') }}">
+                        @csrf
 
+                        <!--日付-->
+                        <div class="form-group row">
+                            <label for="date" class="col-md-3 col-form-label text-md-right">日付</label>
 
-    </form>
-    <form action="{{ route('record_add') }}" method="post" >
-        @csrf
-        <table class="table table-bordered">
-            <thead>
-                <tr>
-                    <th></th> <th>体重</th> <th>カロリー</th> <th>タンパク質</th> <th>脂質</th> <th>炭水化物</th>
-                </tr>
-            </thead>
-            <tbody>    
-                @foreach ($records as $record)
-                    <tr>
-                        <td>{{ date("j日", strtotime($record->date)) }}</td> 
-                        <td>{{ $record->weight }}</td>                                   
-                        <td>{{ $record->kcal }}</td>
-                        <td>{{ $record->protein }}</td>
-                        <td>{{ $record->fat }}</td>
-                        <td>{{ $record->carb }}</td>
-                    </tr>
-                @endforeach
-            </tbody>
-        </table>
-        <input type="submit" value="入力">
-    </form>
-</div>
+                            <div class="col-md-6">
+                                <input id="date" type="date" min="2022-12-01" max="2022-12-30" class="form-control @error('date') is-invalid @enderror" name="date" value="{{ old('date') }}" required autocomplete="date" autofocus>
 
+                                @error('date')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                        </div>
+                        <!-- 体重入力欄 -->
+                        <div class="form-group row">
+                            <label for="weight" class="col-md-3 col-form-label text-md-right">体重(kg)</label>
 
-    
+                            <div class="col-md-6">
+                                <input id="weight" type="number" step="0.1"  min="10" max="120" class="form-control @error('weight') is-invalid @enderror" name="weight" value="{{ old('weight',50) }}" required autocomplete="weight" autofocus>
 
+                                @error('weight')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                        </div>
+                        <!--カロリー入力欄--> 
+                        <div class="form-group row">
+                            <label for="kcal" class="col-md-3 col-form-label text-md-right">カロリー(kcal)</label>
 
+                            <div class="col-md-6">
+                                <input id="kcal" type="number" step="1"  min="0" max="3000" class="form-control @error('kcal') is-invalid @enderror" name="kcal" value="{{ old('kcal') }}" required autocomplete="kcal" autofocus>
+
+                                @error('kcal')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                        </div>
+                        <!-- タンパク質入力欄 -->
+                        <div class="form-group row">
+                            <label for="protein" class="col-md-3 col-form-label text-md-right">タンパク質(g)</label>
+
+                            <div class="col-md-6">
+                                <input id="protein" type="number" step="1"  min="0" max="3000" class="form-control @error('protein') is-invalid @enderror" name="protein" value="{{ old('protein') }}" required autocomplete="protein" autofocus>
+
+                                @error('protein')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                        </div>
+                        <!-- 脂質入力欄 --> 
+                        <div class="form-group row">
+                            <label for="fat" class="col-md-3 col-form-label text-md-right">脂質(g)</label>
+
+                            <div class="col-md-6">
+                                <input id="fat" type="number" step="1"  min="0" max="3000" class="form-control @error('fat') is-invalid @enderror" name="fat" value="{{ old('fat') }}" required autocomplete="fat" autofocus>
+
+                                @error('fat')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                        </div>
+                        <!-- 炭水化物入力欄 -->
+                        <div class="form-group row">
+                            <label for="carb" class="col-md-3 col-form-label text-md-right">炭水化物(g)</label>
+                            <div class="col-md-6">
+                                <input id="carb" type="number" step="1"  min="0" max="3000" class="form-control @error('carb') is-invalid @enderror" name="carb" value="{{ old('carb') }}" required autocomplete="carb" autofocus>
+
+                                @error('carb')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                        </div>
+
+                        <div class="form-group row mb-0">
+                            <div class="col-md-6 offset-md-3">
+                                <button type="submit" class="btn btn-dark">
+                                    {{ __('Register') }}
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>                
 @endsection
