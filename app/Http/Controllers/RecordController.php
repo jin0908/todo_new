@@ -46,7 +46,7 @@ class RecordController extends Controller
     
     
     //記録入力
-    public function record_add(Request $request){
+    public function record_add(RecordCreateRequest $request){
         
         //$request->validate([
             //'date' => 'unique','record',
