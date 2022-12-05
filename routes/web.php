@@ -35,10 +35,10 @@ Route::get('/edit/{id}', [App\Http\Controllers\UserController::class, 'edit'])->
 Route::post('/update/{id}', [App\Http\Controllers\UserController::class, 'update'])->name('update');
 //記録一覧画面
 Route::get('/record', [App\Http\Controllers\RecordController::class, 'record'])->name('record');
-//記録一覧編集画面
-Route::get('/record_edit{id}', [App\Http\Controllers\RecordController::class, 'input'])->name('record_edit');
-//記録一覧編集
-Route::post('/record_update/{id}', [App\Http\Controllers\RecordController::class, 'record_edit'])->name('record_update');
+//記録編集画面
+Route::get('/record_edit/{id}', [App\Http\Controllers\RecordController::class, 'record_edit'])->name('record_edit');
+//記録編集
+Route::post('/record_update', [App\Http\Controllers\RecordController::class, 'record_update'])->name('record_update');
 //記録入力画面
 Route::get('/add', [App\Http\Controllers\RecordController::class, 'add'])->name('add');
 //記録入力
