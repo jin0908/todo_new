@@ -6,7 +6,7 @@
     <div class="row justify-content-center">
         <div class="col-md-6">
             <div class="card">
-                <div class="card-header"><h4 style="text-align: center">12月</h4></div>
+                <div class="card-header"><h4 style="text-align: center">データ登録</h4></div>
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('record_add') }}">
@@ -17,7 +17,7 @@
                             <label for="date" class="col-md-3 col-form-label text-md-right">日付</label>
 
                             <div class="col-md-6">
-                                <input id="date" type="date" min="2022-12-01" max="2022-12-30" class="form-control @error('date') is-invalid @enderror" name="date" value="{{ old('date') }}" required autocomplete="date" autofocus>
+                                <input id="date" type="date" class="form-control @error('date') is-invalid @enderror" name="date" value="{{ old('date') }}" required autocomplete="date" autofocus>
 
                                 @error('date')
                                     <span class="invalid-feedback" role="alert">
