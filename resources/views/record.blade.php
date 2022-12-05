@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<header><h1 style="text-align: center">11月</h1></header>
+<header><h1 style="text-align: center"></a></h1></header>
     <div class="container">
         <div class="main">
             <table class="table table-bordered">
@@ -19,7 +19,7 @@
                 <tbody>
                 @foreach ($record as $record)
                 <tr>
-                    <th scope="row">{{ date("j", strtotime($record->date)) }}</th>
+                    <th scope="row">{{ date("Y/n/j", strtotime($record->date)) }}</th>
                     <td>{{ $record->weight }}</td>
                     <td>{{ $record->kcal }}</td>
                     <td>{{ $record->protein }}</td>
