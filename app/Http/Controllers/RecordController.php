@@ -7,6 +7,7 @@ use App\Models\Record;
 use Illuminate\Support\Facades\Auth;
 use App\Models\User;
 use Carbon\CarbonPeriod;
+use App\Http\Requests\RecordCreateRequest;
 
 
 class RecordController extends Controller
