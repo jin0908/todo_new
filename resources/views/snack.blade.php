@@ -37,40 +37,40 @@
                 <div class="card-text">
                 <ul class="list">
                         <li class="item">
-                        ・素焼きアーモンド10粒<p>(70kcal,P:2g,F:5g,C:2g)</p>
+                        素焼きアーモンド10粒<p>(70kcal,P:2g,F:5g,C:2g)</p>
                         </li>
                         <li class="item">
-                        ・焼き芋 小さめ1本<p>(160kcal,P:2g,F:0g,C:35g)</p>
+                        焼き芋 小さめ1本<p>(160kcal,P:2g,F:0g,C:35g)</p>
                         </li>
                         <li class="item">
-                        ・カッテージチーズ<p>(100g:115kcal,P:18g,F:4g,C:0g)</p>
+                        カッテージチーズ<p>(100g:115kcal,P:18g,F:4g,C:0g)</p>
                         </li>
                         <li class="item">
-                        ・プロテインドリンク<p>(1杯:80kcal,P:20g,F:1g,C:8g)</p>
+                        プロテインドリンク<p>(1杯:80kcal,P:20g,F:1g,C:8g)</p>
                         </li>
                         <li class="item">
-                        ・カステラ<p>(1切れ:70kcal,P:2g,F:5g,C:2g)</p>
+                        カステラ<p>(1切れ:70kcal,P:2g,F:5g,C:2g)</p>
                         </li>
                         <li class="item">
-                        ・どら焼き<p>(170kcal,P:4g,F:3g,C:30g)</p>
+                        どら焼き<p>(170kcal,P:4g,F:3g,C:30g)</p>
                         </li>
                         <li class="item">
-                        ・大福<p>(230kcal,P:4g,F:1g,C:50g)</p>
+                        大福<p>(230kcal,P:4g,F:1g,C:50g)</p>
                         </li>
                         <li class="item">
-                        ・さけるチーズ<p>(1本:80kcal,P:7g,F:6g,C:0g)</p>
+                        さけるチーズ<p>(1本:80kcal,P:7g,F:6g,C:0g)</p>
                         </li>
                         <li class="item">
-                        ・ギリシャヨーグルト<br>(1カップ110g:70kcal,P:12g,F:0g,C:5g)
+                        ギリシャヨーグルト<br>(1カップ110g:70kcal,P:12g,F:0g,C:5g)
                         </li>
                         <li class="item">
-                        ・せんべい(揚げていないもの)<p>(1枚:40kcal,P:1g,F:0g,C:10g)</p>
+                        せんべい(揚げていないもの)<p>(1枚:40kcal,P:1g,F:0g,C:10g)</p>
                         </li>
                         <li class="item">
-                        ・バナナ<p>(1本:90kcal,P:1g,F:0g,C:22g)</p>
+                        バナナ<p>(1本:90kcal,P:1g,F:0g,C:22g)</p>
                         </li>
                         <li class="item">
-                        ・鮭のおにぎり<p>(180kcal,P:5g,F:2g,C:36g)</p>
+                        鮭のおにぎり<p>(180kcal,P:5g,F:2g,C:36g)</p>
                         </li>
                     </ul>
                 </div>

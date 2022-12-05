@@ -72,22 +72,22 @@
                 <div class="card-text">
                     <ul class="list">
                         <li class="item">
-                        ・ざる蕎麦<p>(1人前 410g:360kcal,P:15g,F:2g,C:70g)</p>
+                        ざる蕎麦<p>(1人前 410g:360kcal,P:15g,F:2g,C:70g)</p>
                         </li>
                         <li class="item">
-                        ・鮭のおにぎり<p>(180kcal,P:5g,F:2g,C:36g)</p>
+                        鮭のおにぎり<p>(180kcal,P:5g,F:2g,C:36g)</p>
                         </li>
                         <li class="item">
-                        ・鶏むね肉サラダ<p>(1切れ:110kcal,P:18g,F:4g,C:0g)</p>
+                        鶏むね肉サラダ<p>(1切れ:110kcal,P:18g,F:4g,C:0g)</p>
                         </li>
                         <li class="item">
-                        ・チキン＆たまごサンドイッチ<p>(2切れ:320kcal,P:15g,F:17g,C:25g)</p>
+                        チキン＆たまごサンドイッチ<p>(2切れ:320kcal,P:15g,F:17g,C:25g)</p>
                         </li>
                         <li class="item">
-                        ・納豆巻き<p>(1本:190kcal,P:6g,F:2g,C:40g)</p>
+                        納豆巻き<p>(1本:190kcal,P:6g,F:2g,C:40g)</p>
                         </li>
                         <li class="item">
-                        ・チキンミネストローネスープ<p>(18kcal,P:15g,F:8g,C:10g)</p>
+                        チキンミネストローネスープ<p>(18kcal,P:15g,F:8g,C:10g)</p>
                         </li>
                     </ul>
                 </div>

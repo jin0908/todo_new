@@ -73,22 +73,22 @@
                 <div class="card-text">
                 <ul class="list">
                         <li class="item">
-                        ・枝豆<p>(1人前g:110kcal,P:18g,F:4g,C:0g)</p>
+                        枝豆<p>(1人前g:110kcal,P:18g,F:4g,C:0g)</p>
                         </li>
                         <li class="item">
-                        ・サバの塩焼<p>(200kcal,P:20g,F:11g,C:1g)</p>
+                        サバの塩焼<p>(200kcal,P:20g,F:11g,C:1g)</p>
                         </li>
                         <li class="item">
-                        ・冷奴<p>(80kcal,P:8g,F:4g,C:4g)</p>
+                        冷奴<p>(80kcal,P:8g,F:4g,C:4g)</p>
                         </li>
                         <li class="item">
-                        ・馬刺し<p>(1人前100g:110kcal,P:20g,F:2g,C:0g)</p>
+                        馬刺し<p>(1人前100g:110kcal,P:20g,F:2g,C:0g)</p>
                         </li>
                         <li class="item">
-                        ・刺身の盛り合わせ<p>(200kcal,P:30g,F:5g,C:5g)</p>
+                        刺身の盛り合わせ<p>(200kcal,P:30g,F:5g,C:5g)</p>
                         </li>
                         <li class="item">
-                        ・オクラ納豆<p>(85kcal,P:8g,F:5g,C:5g)</p>
+                        オクラ納豆<p>(85kcal,P:8g,F:5g,C:5g)</p>
                         </li>
                     </ul>
                 </div>

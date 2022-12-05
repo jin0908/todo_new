@@ -116,28 +116,28 @@
                 <div class="card-text">
                     <ul class="list">
                     <li class="item">
-                        ・全粒粉パン<p>(6枚切 2枚:300kcal,P:10g,F:6g,C:55g)</p>
+                        全粒粉パン<p>(6枚切 2枚:300kcal,P:10g,F:6g,C:55g)</p>
                         </li>
                         <li class="item">
-                        ・焼き鮭<p>(1切れ:110kcal,P:18g,F:4g,C:0g)</p>
+                        焼き鮭<p>(1切れ:110kcal,P:18g,F:4g,C:0g)</p>
                         </li>
                         <li class="item">
-                        ・ブロッコリーサラダ<p>(小皿1皿:20kcal,P:2g,F:0g,C:4g)</p>
+                        ブロッコリーサラダ<p>(小皿1皿:20kcal,P:2g,F:0g,C:4g)</p>
                         </li>
                         <li class="item">
-                        ・サラダチキン<p>(1パック約115g:115kcal,P:25g,F:1g,C:1g)</p>
+                        サラダチキン<p>(1パック約115g:115kcal,P:25g,F:1g,C:1g)</p>
                         </li>
                         <li class="item">
-                        ・カッテージチーズ<p>(100g:115kcal,P:18g,F:4g,C:0g)</p>
+                        カッテージチーズ<p>(100g:115kcal,P:18g,F:4g,C:0g)</p>
                         </li>
                         <li class="item">
-                        ・さけるチーズ<p>(1本:80kcal,P:7g,F:6g,C:0g)</p>
+                        さけるチーズ<p>(1本:80kcal,P:7g,F:6g,C:0g)</p>
                         </li>
                         <li class="item">
-                        ・豆乳<p>(1杯200ml:95kcal,P:7g,F:4g,C:6g)</p>
+                        豆乳<p>(1杯200ml:95kcal,P:7g,F:4g,C:6g)</p>
                         </li>
                         <li class="item">
-                        ・牛乳<p>(1杯200ml:140kcal,P:7g,F:8g,C:10g)</p>
+                        牛乳<p>(1杯200ml:140kcal,P:7g,F:8g,C:10g)</p>
                         </li>    
                     </ul>
                 </div>
