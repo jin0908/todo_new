@@ -19,12 +19,13 @@
                 <tbody>
                 @foreach ($record as $record)
                 <tr>
-                    <th scope="row">{{ date("j日", strtotime($record->date)) }}</th>
+                    <th scope="row">{{ date("j", strtotime($record->date)) }}</th>
                     <td>{{ $record->weight }}</td>
                     <td>{{ $record->kcal }}</td>
                     <td>{{ $record->protein }}</td>
                     <td>{{ $record->fat }}</td>
                     <td>{{ $record->carb }}</td>
+                    <td><button onclick="location.href='/record_edit/{{$record->id}}'" class="btn btn-outline-secondary btn-sm" >編集</button></td>
                     
                 </tr>
                 @endforeach 
