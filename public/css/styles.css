@@ -34,3 +34,15 @@ td{
 tr{
     text-align: center;
 }
+
+.card-title{
+    color: white;
+    font-size: 100px;
+    text-align:center;
+    text-shadow:
+            3px 3px 3px #000, -3px -3px 3px #000,
+           -3px 3px 3px #000,  3px -3px 3px #000,
+            3px 0px 3px #000, -3px -0px 3px #000,
+            0px 3px 3px #000,  0px -3px 3px #000;
+    margin: 0;
+}

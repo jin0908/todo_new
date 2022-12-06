@@ -16,18 +16,18 @@
                             {{ session('status') }}
                         </div>
                     @endif
-                    {{ __('ボディメイク') }}
+                    {{ __('腹筋はキッチンで作られる') }}
                     </div>
                 </div> 
             </div>       
         </div>
         <div class="col-md-6">
             <div class="card text-dark">
-                <img src="" class="card-img" alt="トレーニング画像">
+                <img src="{{ asset('/css/images/\weights-exercise-weightlifter-strong-athletic.jpg') }}" class="card-img" alt="トレーニング画像" height="250">
             <div class="card-img-overlay">
                 <h5 class="card-title">筋肉食堂</h5>
-                <p class="card-text">夕食</p>
-                <p class="card-text">夕食</p>
+                <p class="card-text"></p>
+                <p class="card-text"></p>
             </div>
         </div>
             <div class="card">
