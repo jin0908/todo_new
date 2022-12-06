@@ -7,11 +7,11 @@
 
 <div class= "col-md-6 mx-auto">
     <div class="card text-dark">
-        <img src="" class="card-img" alt="ボディメイクに適した昼食">
+        <img src="{{ asset('/css/images/25011705_s.jpg') }}" class="card-img" alt="ボディメイクに適した昼食" height="250">
         <div class="card-img-overlay">
             <h5 class="card-title">LUNCH MENU</h5>
-            <p class="card-text">昼食</p>
-            <p class="card-text">昼食</p>
+            <p class="card-text"></p>
+            <p class="card-text"></p>
         </div>
     </div>
     <div class="card">
@@ -28,33 +28,33 @@
     <div class="card-group">
         <div class="card">
             <div class="card-body">
-                <div class="card-title">
+                <div class="card-title2">
                 <h5><span style="color: #ffffff; background-color: #000080 ; border: 2px solid #000080;  border-radius: 4px; ">和食</span></h5>
                 </div>
                 <div class="card-text">
-                    <h6>・鉄火丼<h6>
+                    <h6>鉄火丼<h6>
                     <p>(550kcal,P:28g,F:2g,C:90g)</p>
-                    <h6>・海鮮丼<h6>
+                    <h6>海鮮丼<h6>
                     <p>(790kcal,P:30g,F:8g,C:90g)</p>
-                    <h6>・鴨南蛮そば<h6>
+                    <h6>鴨南蛮そば<h6>
                     <p>(590kcal,P:23g,F:16g,C:75g)</p>
-                    <h6>・サバの塩焼き定食</h6>
+                    <h6>サバの塩焼き定食</h6>
                     <p>(710kcal,P:32g,F20g,C:70g)</p>
                 </div>
             </div>
         </div>
         <div class="card">
             <div class="card-body">
-                <div class="card-title">
+                <div class="card-title2">
                     <h5><span style="color: #ffffff; background-color: #ffa500 ; border: 2px solid #ffa500;  border-radius: 4px;">洋食</span></h5>
                 </div>
                 <div class="card-text">
-                    <h6>・チキンソテー定食<h6>
+                    <h6>チキンソテー定食<h6>
                     <p>(鶏モモ皮なし:560kcal,P:47g,F:11g,C:70g)</p>
                     <p style="margin-top: 0,5;">(鶏胸皮なし:530kcal,P:53g,F:5g,C:64g)</p>
-                    <h6>・たらこソースパスタ<h6>
+                    <h6>たらこソースパスタ<h6>
                     <p>(460kcal,P:20g,F:9g,C:73g)</p>
-                    <h6>・鶏肉のトマト煮と全粒粉パン<h6>
+                    <h6>鶏肉のトマト煮と全粒粉パン<h6>
                     <p>(615kcal,P:32g,F:25g,C:65g)</p>
                 </div>
             </div>

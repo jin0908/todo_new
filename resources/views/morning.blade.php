@@ -7,11 +7,11 @@
 
 <div class= "col-md-6 mx-auto">
     <div class="card text-dark">
-        <img src="" class="card-img" alt="ボディメイクに適した朝食">
+        <img src="{{ asset('/css/images/25164906_s.jpg') }}" class="card-img" alt="ボディメイクに適した朝食" height="250">
         <div class="card-img-overlay">
             <h5 class="card-title">MORNING MENU</h5>
-            <p class="card-text">朝食</p>
-            <p class="card-text">朝食</p>
+            <p class="card-text"></p>
+            <p class="card-text"></p>
         </div>
     </div>
     <div class="card">
@@ -29,17 +29,17 @@
     <div class="card-group">
         <div class="card">
             <div class="card-body">
-                <div class="card-title">
+                <div class="card-title2">
                     <h5><span style="color: #ffffff; background-color: #000080 ; border: 2px solid #000080;  border-radius: 4px; ">和食</span></h5>
                 </div>
                 <div class="card-text">
-                    <h6>・白米<h6>
+                    <h6>白米<h6>
                     <p>(お茶碗1杯250kcal,P:4g,F:0g,C:55g)</p>
-                    <h6>・ゆで卵<h6>
+                    <h6>ゆで卵<h6>
                     <p>(80kcal,P:7g,F:6g,C:0g)</p>
-                    <h6>・納豆1パック<h6>
+                    <h6>納豆1パック<h6>
                     <p>(80kcal,P:8g,F:5g,C:5g)</p>
-                    <h6>・豆腐の味噌汁</h6>
+                    <h6>豆腐の味噌汁</h6>
                     <p>(50kcal,P:3g,F:1g,C:5g)</p>
                 </div>
             </div>
@@ -50,9 +50,9 @@
         <div class="card">
             <div class="card-body">
                 <div class="card-text">
-                    <h6 style="padding-top:25px">・白米<h6>
+                    <h6 style="padding-top:25px">白米<h6>
                     <p>(お茶碗1杯250kcal,P:4g,F:0g,C:55g)</p>
-                    <h6>・焼き鮭<h6>
+                    <h6>焼き鮭<h6>
                     <p>(1切れ:110kcal,P:18g,F:4g,C:0g)</p>
                     <h6>豆腐の味噌汁<h6>
                     <p>(50kcal,P:3g,F:1g,C:5g)</p>
@@ -68,13 +68,13 @@
     <div class="card-group">
         <div class="card">
             <div class="card-body">
-                <div class="card-title">
+                <div class="card-title2">
                     <h5><h5><span style="color: #ffffff; background-color: #ffa500 ; border: 2px solid #ffa500;  border-radius: 4px;">洋食</span></h5></h5>
                 </div>
                 <div class="card-text">
-                    <h6>・ツナトースト<h6>
+                    <h6>ツナトースト<h6>
                     <p>(ノンオイルツナ缶と通常のマヨネーズ使用:304kcal,P:18g,F:13g,C:28g)</p>
-                    <h6>・プロテインドリンク<h6>
+                    <h6>プロテインドリンク<h6>
                     <p>(1杯:80kcal,P:20g,F:1g,C:8g)</p>
                 </div>
             </div>
@@ -88,9 +88,9 @@
                     
                 </div>
                 <div class="card-text">
-                    <h6 style="padding-top:25px">・ベーグル<h6>
+                    <h6 style="padding-top:25px">ベーグル<h6>
                     <p>(1個225kcal,P:8g,F:1g,C:45g)</p>
-                    <h6>・ゆで卵<h6>
+                    <h6>ゆで卵<h6>
                     <p>(80kcal,P:7g,F:6g,C:0g)</p>
                     <h6>ギリシャヨーグルト<h6>
                     <p>(1カップ110g:70kcal,P:12g,F:0g,C:5g)</p> 

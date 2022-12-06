@@ -7,11 +7,11 @@
 
 <div class= "col-md-6 mx-auto">
     <div class="card text-dark">
-        <img src="" class="card-img" alt="ボディメイクに適した間食">
+        <img src="{{ asset('/css/images/25102692_s.jpg') }}" class="card-img" alt="ボディメイクに適した間食" height="250">
         <div class="card-img-overlay">
             <h5 class="card-title">SNACK MENU</h5>
-            <p class="card-text">間食</p>
-            <p class="card-text">間食</p>
+            <p class="card-text"></p>
+            <p class="card-text"></p>
         </div>
     </div>
     <div class="card">

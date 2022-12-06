@@ -7,11 +7,11 @@
 
 <div class= "col-md-6 mx-auto">
     <div class="card text-dark">
-        <img src="" class="card-img" alt="ボディメイクに適した夕食">
+        <img src="{{ asset('/css/images/24860828_s.jpg') }}" class="card-img" alt="ボディメイクに適した夕食" height="250">
         <div class="card-img-overlay">
             <h5 class="card-title">DINNER MENU</h5>
-            <p class="card-text">夕食</p>
-            <p class="card-text">夕食</p>
+            <p class="card-text"></p>
+            <p class="card-text"></p>
         </div>
     </div>
     <div class="card">
@@ -28,34 +28,34 @@
     <div class="card-group">
         <div class="card">
             <div class="card-body">
-                <div class="card-title">
+                <div class="card-title2">
                 <h5><span style="color: #ffffff; background-color: #000080 ; border: 2px solid #000080;  border-radius: 4px; ">和食</span></h5>
                 </div>
                 <div class="card-text">
-                    <h6>・刺身定食<h6>
+                    <h6>刺身定食<h6>
                     <p>(630kcal,P:40g,F:10g,C:85g)</p>
-                    <h6>・ほっけの塩焼定食<h6>
+                    <h6>ほっけの塩焼定食<h6>
                     <p>(630cal,P:45g,F:13g,C:77g)</p>
-                    <h6>・焼鳥とご飯・味噌汁セット(モモ塩・ムネ塩・ねぎま各1本)<h6>
+                    <h6>焼鳥とご飯・味噌汁セット(モモ塩・ムネ塩・ねぎま各1本)<h6>
                     <p>(540kcal,P:27g,F:15,C:65g)</p>
-                    <h6>・おでん（大根・はんぺん・たまご・ちくわ・こんにゃく各1個）</h6>
+                    <h6>おでん（大根・はんぺん・たまご・ちくわ・こんにゃく各1個）</h6>
                     <p>(206kcal,P:16g,F:7.5g,C:15g)</p>
                 </div>
             </div>
         </div>
         <div class="card">
             <div class="card-body">
-                <div class="card-title">
+                <div class="card-title2">
                     <h5><span style="color: #ffffff; background-color: #ffa500 ; border: 2px solid #ffa500;  border-radius: 4px;">洋食</span></h5>
                 </div>
                 <div class="card-text">
-                    <h6>・牛フィレ肉ステーキ(200g)<h6>
+                    <h6>牛フィレ肉ステーキ(200g)<h6>
                     <p>(270kcal,P:40g,F:10g,C:0g)</p>
-                    <h6>・シーフードマリネとフランスパン<h6>
+                    <h6>シーフードマリネとフランスパン<h6>
                     <p>(420kcal,P:25g,F:12g,C:52g)</p>
-                    <h6>・鶏ムネ肉のグリルチキン(皮なし200g)<h6>
+                    <h6>鶏ムネ肉のグリルチキン(皮なし200g)<h6>
                     <p>(380kcal,P:40g,F:3g,C:0g)</p>
-                    <h6>・カジキマグロのステーキ<h6>
+                    <h6>カジキマグロのステーキ<h6>
                     <p>(250kcal,P:28g,F:15g,C1g)</p>  
                 </div>
             </div>
