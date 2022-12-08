@@ -9,15 +9,22 @@
         <div class= "col-md-3">
         <div class= "card">
         <div class="card text-center">
-            <div class="card-header">{{ __('筋肉食堂にようこそ！') }}</div>
-                <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                    @endif
-                    {{ __('腹筋はキッチンで作られる') }}
-                    </div>
+            <div class="card-header">筋肉食堂にようこそ！</div>
+                <div class="card-body"><span style="background-color:#dc143c;">
+                <script>
+                var a=["腹筋はキッチンで作られる",
+                        "限界を決めるのはあなたの心だ",
+                        "筋肉という名の衣服を日々の努力で縫い上げる",
+                        "続ければ必ず成長出来る",
+                        "頑張るか、超頑張るかの二択だ",
+                        "さあ、トレーニングだ。余計なことは忘れて",
+                        "真のトレーニングとはやめたいと思った時から始まる",
+                        "筋肉は裏切らない"];
+                var x;
+                x=Math.floor(Math.random()*8); 
+                document.write(a[x]);
+                </script>
+                </span></div>
                 </div> 
             </div>       
         </div>
@@ -35,7 +42,7 @@
                     <h3 style="text-align:center">{{$dt3}}日目</h3>
                     <p style="text-align:center">
                         <font size="5">
-                        {{ $user->name }}さんの1日の目標値は<br>
+                        {{ $user->name }}さんの１日の目標値は<br>
                         <span class='taeget'>{{$kcal2}}kcal</span><br>
                         <span class='taeget'>タンパク質：{{$protein2}}g</span><br>
                         <span class='taeget'>脂質：{{$fat2}}g</span><br>
