@@ -42,6 +42,7 @@ return [
     'email'                => ':attributeは、有効なメールアドレス形式で指定してください。',
     'ends_with'            => 'The :attribute must end with one of the following: :values',
     'exists'               => '選択された:attributeは、有効ではありません。',
+    'failed'               => 'ログインできません。入力した情報に誤りがないかご確認ください。',
     'file'                 => ':attributeはファイルでなければいけません。',
     'filled'               => ':attributeは必須です。',
     'gt'                   => [

@@ -132,7 +132,7 @@ return [
     ],
     'starts_with'          => ':attributeは、次のいずれかで始まる必要があります。:values',
     'string'               => ':attributeには、文字を指定してください。',
-    'throttle' => 'ロックされました。:seconds秒後に再度お試しください。',
+    'throttle' => 'ログイン試行が規定回数を超えました。:seconds秒後に再度お試しください。',
     'timezone'             => ':attributeには、有効なタイムゾーンを指定してください。',
     'unique'               => '指定の:attributeは既に使用されています。',
     'uploaded'             => ':attributeのアップロードに失敗しました。',
