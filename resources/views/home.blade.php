@@ -59,8 +59,8 @@
                         <button onclick="location.href='/snack'" class="btn btn-dark btn-lg m-3">間食メニュー</button>
                     </div>
                     <div class="text-center">
-                        <button onclick="location.href='/record'" class="btn btn-outline-dark m-2">記録一覧</button>
-                        <button onclick="location.href='/edit/{id}'" class="btn btn-outline-dark m-2">アカウント編集</button>
+                        <button onclick="location.href='/record'" class="btn btn-outline-dark  m-3">記録を確認</button>
+                        <button onclick="location.href='/edit/{id}'" class="btn btn-outline-dark  ml-3 ">アカウント編集</button>
                     </div>
                 </div>
             </div>
