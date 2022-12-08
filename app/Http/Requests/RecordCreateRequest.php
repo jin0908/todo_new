@@ -3,6 +3,10 @@
 namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Validation\Rule;
+
+
 
 class RecordCreateRequest extends FormRequest
 {
@@ -23,23 +27,15 @@ class RecordCreateRequest extends FormRequest
      */
     public function rules()
     {
+        
         return [
-            'date' => 'unique:records'
+            'date' =>[
+                Rule::unique('records')->ignore($this->id)->where('user_id', Auth::user()->id)],
         ];
     }
+    
 
-    /**
-     *  バリデーション項目名定義
-     * @return array
-     */
-    public function attributes()
-    {
-        return [
-            'date' => '日付',
-            
-        ];
-    }
-
+    
     /**
      * バリデーションメッセージ
      * @return array
@@ -47,7 +43,7 @@ class RecordCreateRequest extends FormRequest
     public function messages()
     {
         return [
-        'date.unique' => 'その:attributeは入力済です'
+        'date.unique' => 'その日付は入力済です'
         ];
     }
 }
