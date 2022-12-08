@@ -35,7 +35,7 @@
     </div>
     <footer>
     <div class="d-grid gap-2 col-4 mx-auto text-center">
-        <button onclick="location.href='/add' " class="btn btn-dark btn-lg" >データを入力する</button>
+        <button onclick="location.href='/add' " class="btn btn-dark btn-lg" >入力</button>
     </div>
     <div class="text-center">
         <button onclick="location.href='/home'" class="btn btn-outline-dark btn-lg m-3" >ホームへ戻る</button>
