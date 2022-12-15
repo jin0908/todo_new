@@ -31,7 +31,7 @@
                             <label for="weight" class="col-md-3 col-form-label text-md-right">体重(kg)</label>
 
                             <div class="col-md-6">
-                                <input id="weight" type="number" step="0.1"  min="10" max="120" class="form-control @error('weight') is-invalid @enderror" name="weight" value="{{ old('weight',50) }}" required autocomplete="weight" autofocus>
+                                <input id="weight" type="number" step="0.1"  min="10" class="form-control @error('weight') is-invalid @enderror" name="weight" value="{{ old('weight',50) }}" required autocomplete="weight" autofocus>
 
                                 @error('weight')
                                     <span class="invalid-feedback" role="alert">
@@ -45,7 +45,7 @@
                             <label for="kcal" class="col-md-3 col-form-label text-md-right">カロリー(kcal)</label>
 
                             <div class="col-md-6">
-                                <input id="kcal" type="number" step="1"  min="0" max="3000" class="form-control @error('kcal') is-invalid @enderror" name="kcal" value="{{ old('kcal') }}" required autocomplete="kcal" autofocus>
+                                <input id="kcal" type="number" step="1"  min="0" max="8000" class="form-control @error('kcal') is-invalid @enderror" name="kcal" value="{{ old('kcal') }}" required autocomplete="kcal" autofocus>
 
                                 @error('kcal')
                                     <span class="invalid-feedback" role="alert">
